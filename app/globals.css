@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ ::-webkit-scrollbar{
+    display: none;
+ }
+.playlistItemExplore,.playlistItemGenre{
+   padding: 14px;
+
+}
+ 
+.playlistItemExplore:hover{
+    background: #515050;
+  }
+  .playlistItemGenre:hover{
+        background: #B783E8;
+
+  }
+   
+ .playlistItemExplore:hover .overlay
+ ,.playlistItemGenre:hover .overlay{
+   display: none;
+ }
+ .playlistItemExplore:hover .playIcon
+ ,.playlistItemGenre:hover .playIcon{
+   display: inline;
+ }
